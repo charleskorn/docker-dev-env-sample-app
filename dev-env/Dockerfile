@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.10
 
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y \
-	openjdk-7-jdk=7u121-2.6.8-1ubuntu0.14.04.1
+	openjdk-8-jdk=8u111-b14-2ubuntu0.16.10.2

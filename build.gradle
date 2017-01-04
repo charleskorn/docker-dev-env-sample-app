@@ -9,4 +9,4 @@ dependencies {
     testCompile 'com.github.stefanbirkner:system-rules:1.16.0'
 }
 
-sourceCompatibility = 1.7
+sourceCompatibility = 1.8
